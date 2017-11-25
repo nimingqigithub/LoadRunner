@@ -1,0 +1,11 @@
+[t74]
+FileName1=t74_Tips.html
+URL1=http://192.168.5.200:8034/GisqRealEstate-Explorer/Tips?login&username=zscs&flag=circle&callback=tipsResultCircle&_=1511497312410
+Total=1
+ContentType=text/javascript
+SnapshotXmlFile=snapshot_74.xml
+RequestHeaderFile=t74_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t74_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

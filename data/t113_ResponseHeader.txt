@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Last-Modified: Fri, 20 Jan 2017 01:20:44 GMT
+Cache-Control: max-age=31536000
+Accept-Ranges: bytes
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 14947
+Date: Fri, 24 Nov 2017 04:22:45 GMT
+Connection: close
+

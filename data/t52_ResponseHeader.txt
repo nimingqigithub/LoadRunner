@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Bdpagetype: 3
+Bdqid: 0xf13d7398000229ea
+Bduserid: 0
+Cache-Control: private
+Ckpacknum: 2
+Ckrndstr: 8000229ea
+Content-Encoding: gzip
+Content-Type: text/html;charset=utf-8
+Date: Fri, 24 Nov 2017 04:14:42 GMT
+P3p: CP=" OTI DSP COR IVA OUR IND COM "
+Server: BWS/1.1
+Set-Cookie: BDRCVFR[4Zjqyl1bxbt]=mk3SLVN4HKm; path=/; domain=.baidu.com,BD_CK_SAM=1;path=/,PSINO=5; domain=.baidu.com; path=/,BDSVRTM=8; path=/,H_PS_PSSID=1467_19033_21106_25178; path=/; domain=.baidu.com
+Strict-Transport-Security: max-age=172800
+Vary: Accept-Encoding
+X-Powered-By: HPHP
+X-Ua-Compatible: IE=Edge,chrome=1
+Connection: close
+

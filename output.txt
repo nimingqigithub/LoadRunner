@@ -1,0 +1,47 @@
+虚拟用户脚本已于 : 2017/11/24 15:26:06 启动
+正在开始操作 vuser_init。
+LoadRunner 12.53.0 (Windows 10) 的 Web Turbo 回放；内部版本 1203 (11月 24 2017 19:13:20)  	[MsgId: MMSG-26983]
+运行模式: HTML  	[MsgId: MMSG-26993]
+回放用户代理: Microsoft-ATL-Native/8.00  	[MsgId: MMSG-26988]
+运行时设置文件: "E:\不动产登记系统\trunk\07.系统实现\性能测试\LastTest\\default.cfg"  	[MsgId: MMSG-27141]
+正在结束操作 vuser_init。
+正在运行 Vuser...
+正在开始迭代 1。
+每个服务器的最大并发连接数: 2  	[MsgId: MMSG-26989]
+正在开始操作 ActionLZ。
+ActionLZ.c(42): web_set_max_html_param_len 已启动  	[MsgId: MMSG-26355]
+ActionLZ.c(42): web_set_max_html_param_len 已成功  	[MsgId: MMSG-26392]
+ActionLZ.c(43): web_reg_save_param 已启动  	[MsgId: MMSG-26355]
+ActionLZ.c(43): 注册 web_reg_save_param 成功  	[MsgId: MMSG-26390]
+ActionLZ.c(44): web_save_header 已启动  	[MsgId: MMSG-26355]
+ActionLZ.c(44): web_save_header 已成功  	[MsgId: MMSG-26392]
+ActionLZ.c(45): web_save_header 已启动  	[MsgId: MMSG-26355]
+ActionLZ.c(45): web_save_header 已成功  	[MsgId: MMSG-26392]
+ActionLZ.c(74): web_custom_request("activitiProcessForQuery") 已启动  	[MsgId: MMSG-26355]
+ActionLZ.c(74): web_custom_request("activitiProcessForQuery") 已成功，72 个正文字节，150 个标头字节，11 个分块开销字节  	[MsgId: MMSG-26385]
+ActionLZ.c(91): 切割后的值={"data":[],"total":0,"start":0,"sort":"id","order":"asc","size":0}
+ActionLZ.c(95): # 请求头信息2：
+ GET /realestate/restServlet?method=get&urlPath=houseright/findhouseright?size=1000%EF%BF%A5lcdm=2102%EF%BF%A5islike=0%EF%BF%A5bdcdyh=112312312 HTTP/1.1
+Content-Type: application/json; charset=utf-8
+User-Agent: Microsoft-ATL-Native/8.00
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept: */*
+Connection: Keep-Alive
+Host: 192.168.5.200:8084
+
+ActionLZ.c(96): # 响应头信息2：
+ HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 24 Nov 2017 07:25:57 GMT
+
+ActionLZ.c(97): # 响应内容体2：
+ {"data":[],"total":0,"start":0,"sort":"id","order":"asc","size":0}
+正在结束操作 ActionLZ。
+正在结束迭代 1。
+正在结束 Vuser...
+正在开始操作 vuser_end。
+正在结束操作 vuser_end。
+Vuser 已终止。

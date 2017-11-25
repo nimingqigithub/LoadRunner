@@ -1,0 +1,11 @@
+[t92]
+FileName1=t92_jqxcore.min.html
+URL1=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxcore.min.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_92.xml
+RequestHeaderFile=t92_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t92_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

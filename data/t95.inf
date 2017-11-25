@@ -1,0 +1,11 @@
+[t95]
+FileName1=t95_jqxlistbox.min.html
+URL1=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxlistbox.min.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_95.xml
+RequestHeaderFile=t95_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t95_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

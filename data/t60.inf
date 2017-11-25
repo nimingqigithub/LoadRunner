@@ -1,0 +1,11 @@
+[t60]
+FileName1=t60_login;JSESSIONID=ad6951b80219452ab479bb064b98ff4d.html
+URL1=http://192.168.5.200:8082/GisqPlatformExplorer/a/login;JSESSIONID=ad6951b80219452ab479bb064b98ff4d
+Total=1
+ContentType=text/html
+SnapshotXmlFile=snapshot_60.xml
+RequestHeaderFile=t60_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t60_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

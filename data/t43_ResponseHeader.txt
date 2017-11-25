@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Fri, 24 Nov 2017 04:14:31 GMT
+Content-Type: application/json
+Content-Length: 115873
+Connection: close
+Server: kws
+Last-Modified: Thu, 29 Aug 2013 10:24:30 GMT
+ETag: "521f215e-1c4a1"
+Accept-Ranges: bytes
+X-Ser: BC139_dx-lt-yd-zhejiang-ningbo-2-cache-2, BC28_dx-lt-yd-jiangsu-zhenjiang-3-cache-9
+X-Cache: HIT from BC28_dx-lt-yd-jiangsu-zhenjiang-3-cache-9(baishan)
+

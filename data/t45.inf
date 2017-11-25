@@ -1,0 +1,11 @@
+[t45]
+FileName1=t45_rain-small.jpg
+URL1=http://www.liebao.cn/newtab/background/rain-small.jpg
+Total=1
+ContentType=image/jpeg
+SnapshotXmlFile=snapshot_45.xml
+RequestHeaderFile=t45_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t45_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

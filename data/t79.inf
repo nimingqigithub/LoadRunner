@@ -1,0 +1,11 @@
+[t79]
+FileName1=t79_judgeTips.html
+URL1=http://192.168.5.200:8082/GisqPlatformExplorer/a/sysconfig/tip/judgeTips
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_79.xml
+RequestHeaderFile=t79_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t79_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

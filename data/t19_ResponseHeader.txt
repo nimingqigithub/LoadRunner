@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Cache-Control: no-cache,no-store
+Set-Cookie: JSESSIONID=CD7247AF22A4B6B6BE945C388DD6CC8E; Path=/cas/; HttpOnly
+Content-Type: text/html;charset=UTF-8
+Date: Fri, 24 Nov 2017 03:07:22 GMT
+Connection: close
+

@@ -1,0 +1,11 @@
+[t88]
+FileName1=t88_globalize.culture.zh-CN.min.html
+URL1=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/globalization/globalize.culture.zh-CN.min.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_88.xml
+RequestHeaderFile=t88_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t88_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

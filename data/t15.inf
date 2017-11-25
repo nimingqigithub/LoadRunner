@@ -1,0 +1,11 @@
+[t15]
+FileName1=t15_Tips.html
+URL1=http://192.168.5.200:8034/GisqRealEstate-Explorer/Tips?login&username=zscs&flag=circle&callback=tipsResultCircle&_=1511492837092
+Total=1
+ContentType=text/javascript
+SnapshotXmlFile=snapshot_15.xml
+RequestHeaderFile=t15_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t15_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

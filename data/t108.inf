@@ -1,0 +1,11 @@
+[t108]
+FileName1=t108_jqxpanel.min.html
+URL1=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxpanel.min.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_108.xml
+RequestHeaderFile=t108_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t108_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

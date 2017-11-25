@@ -1,0 +1,11 @@
+[t106]
+FileName1=t106_jqxgrid.filter.min.html
+URL1=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxgrid.filter.min.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_106.xml
+RequestHeaderFile=t106_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t106_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

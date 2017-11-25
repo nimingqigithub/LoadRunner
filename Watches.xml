@@ -1,0 +1,7 @@
+﻿<Properties>
+  <WatchEntry0 value="st1" />
+  <WatchEntry1 value="sourceStr" />
+  <WatchEntry2 value="strstr(sourceStr 200♀{&quot;data&quot;:[],&quot;total&quot;:0,&quot;start&quot;:0,&quot;sort&quot;:&quot;id&quot;,&quot;order&quot;:&quot;asc&quot;,&quot;size&quot;:0} Unsigned Char Pointer, leftBdry)" />
+  <WatchEntry3 value="strstr(&quot;123&quot;,&quot;2&quot;)" />
+  <WatchEntry4 value="*outpuStr" />
+</Properties>

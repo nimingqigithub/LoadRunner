@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Fri, 24 Nov 2017 04:14:29 GMT
+Content-Type: application/javascript; charset=utf8
+Content-Length: 149
+Connection: close
+Expires: Fri, 24 Nov 2017 04:14:30 GMT
+Server: Tengine
+Last-Modified: Wed, 09 Oct 2013 05:46:43 GMT
+ETag: "5254edc3-95"
+Cache-Control: max-age=3600
+Accept-Ranges: bytes
+X-Ser: BC187_dx-lt-hubei-wuhan-2-cache-7, BC14_dx-lt-yd-jiangsu-zhenjiang-3-cache-9
+X-Cache: MISS from BC14_dx-lt-yd-jiangsu-zhenjiang-3-cache-9(baishan)
+

@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Fri, 24 Nov 2017 04:14:33 GMT
+Content-Type: image/jpeg
+Content-Length: 3086
+Connection: close
+Server: kws
+Last-Modified: Fri, 13 Sep 2013 04:11:14 GMT
+ETag: "52329062-c0e"
+Accept-Ranges: bytes
+X-Ser: BC145_dx-lt-yd-zhejiang-ningbo-2-cache-2, BC12_dx-lt-yd-jiangsu-zhenjiang-3-cache-9
+X-Cache: HIT from BC12_dx-lt-yd-jiangsu-zhenjiang-3-cache-9(baishan)
+

@@ -1,0 +1,11 @@
+[t73]
+FileName1=t73_Tips.html
+URL1=http://192.168.5.200:8034/GisqRealEstate-Explorer/Tips?login&businesskey=&bsm=&callback=tipsResult&_=1511497312412
+Total=1
+ContentType=text/javascript
+SnapshotXmlFile=snapshot_73.xml
+RequestHeaderFile=t73_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t73_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

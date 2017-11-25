@@ -1,0 +1,11 @@
+[t46]
+FileName1=t46_light-small.jpg
+URL1=http://www.liebao.cn/newtab/background/light-small.jpg
+Total=1
+ContentType=image/jpeg
+SnapshotXmlFile=snapshot_46.xml
+RequestHeaderFile=t46_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t46_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,12 @@
+GET http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/suspendTimeoutListForQuery HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: application/json, text/javascript, */*; q=0.01
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a?login
+Content-Type: application/json; charset=utf-8
+X-Requested-With: XMLHttpRequest
+Cookie: 23-Nov-2017 04:21:31 GMT; JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+

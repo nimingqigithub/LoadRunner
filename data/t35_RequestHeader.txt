@@ -1,0 +1,9 @@
+GET http://192.168.5.200:8034/GisqRealEstate-Explorer/Tips?login&username=zscs&flag=circle&callback=tipsResultCircle&_=1511496857091 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36 LBBROWSER
+Accept: */*
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a?login
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+Host: 192.168.5.200:8034
+Connection: Close
+

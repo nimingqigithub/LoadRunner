@@ -1,0 +1,11 @@
+[t38]
+FileName1=t38_success.txt
+URL1=http://detectportal.firefox.com/success.txt
+Total=1
+ContentType=text/plain
+SnapshotXmlFile=snapshot_38.xml
+RequestHeaderFile=t38_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t38_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

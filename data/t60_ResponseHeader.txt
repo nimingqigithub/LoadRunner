@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Set-Cookie: gisquest.session.id=8b537ade400a48b0baba682499583c4d; Path=/GisqPlatformExplorer; HttpOnly
+Content-Type: text/html;charset=UTF-8
+Content-Language: zh-CN
+Date: Fri, 24 Nov 2017 04:20:45 GMT
+Connection: close
+

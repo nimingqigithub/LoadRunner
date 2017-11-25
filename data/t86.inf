@@ -1,0 +1,11 @@
+[t86]
+FileName1=t86.html
+URL1=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+Total=1
+ContentType=text/html
+SnapshotXmlFile=snapshot_86.xml
+RequestHeaderFile=t86_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t86_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

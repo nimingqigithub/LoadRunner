@@ -1,0 +1,11 @@
+[t112]
+FileName1=t112_custom.min.html
+URL1=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/custom.min.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_112.xml
+RequestHeaderFile=t112_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t112_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

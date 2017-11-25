@@ -1,0 +1,2844 @@
+****** Start Log Message ******
+Web Recorder version : 12.53.1203.0 
+Recording Mode: URL-Based script
+	Using concurrent groups
+Not recording headers
+Not excluding content types
+Do not record this content types as a resource:
+	text/html
+	text/xml
+Reset context between actions
+Protocol Type: Multi-QTWeb
+
+$$$$$$ End Log Message $$$$$$
+
+Code generation version: 12.53.1203.0
+
+****** Analyze segments filter initialization ******
+****** Request Header For Transaction With Id 285 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/a/login;JSESSIONID=ad6951b80219452ab479bb064b98ff4d HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Cookie: _ga=GA1.4.1946899752.1509948725
+Upgrade-Insecure-Requests: 1
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 285 Ended $$$$$$
+
+****** Response Header For Transaction With Id 285 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Set-Cookie: gisquest.session.id=8b537ade400a48b0baba682499583c4d; Path=/GisqPlatformExplorer; HttpOnly
+Content-Type: text/html;charset=UTF-8
+Content-Language: zh-CN
+Date: Fri, 24 Nov 2017 04:20:45 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 285 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 285 ****** (Location Flag : tFlagInsertEnd, Location ID : 285)
+	web_url("login;JSESSIONID=ad6951b80219452ab479bb064b98ff4d",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/a/login;JSESSIONID=ad6951b80219452ab479bb064b98ff4d",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=",
+		"Snapshot=t60.inf",
+		"Mode=HTTP",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 285 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 285)
+	web_add_cookie("_ga=GA1.4.1946899752.1509948725; DOMAIN=192.168.5.200");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 289 ******
+GET http://detectportal.firefox.com/success.txt HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Host: detectportal.firefox.com
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 289 Ended $$$$$$
+
+****** Response Header For Transaction With Id 289 ******
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: s21Wf3zKZlQvVaXiNfnkGbpUkoGbEvrHNgP0S4X9TlS7ZC0jXcZckQ==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Fri, 24 Nov 2017 04:20:48 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 289 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/login;JSESSIONID=ad6951b80219452ab479bb064b98ff4d
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 289 ****** (Location Flag : tFlagInsertEnd, Location ID : 289)
+	web_url("success.txt",
+		"URL=http://detectportal.firefox.com/success.txt",
+		"Resource=1",
+		"RecContentType=text/plain",
+		"Referer=",
+		"Snapshot=t61.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 289 Ended $$$$$$
+
+****** Request Header For Transaction With Id 293 ******
+GET http://detectportal.firefox.com/success.txt HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Host: detectportal.firefox.com
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 293 Ended $$$$$$
+
+****** Response Header For Transaction With Id 293 ******
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: s21Wf3zKZlQvVaXiNfnkGbpUkoGbEvrHNgP0S4X9TlS7ZC0jXcZckQ==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Fri, 24 Nov 2017 04:20:58 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 293 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/login;JSESSIONID=ad6951b80219452ab479bb064b98ff4d
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 1000285 ****** (Location Flag : tFlagInsertBefore, Location ID : 289)
+	web_concurrent_start(NULL);
+
+
+$$$$$$ Add Event For Transaction With Id 1000285 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertAfter, Location ID : 289)
+	web_concurrent_end(NULL);
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 293 ****** (Location Flag : tFlagInsertAfter, Location ID : 289)
+	web_url("success.txt_2",
+		"URL=http://detectportal.firefox.com/success.txt",
+		"Resource=1",
+		"RecContentType=text/plain",
+		"Referer=",
+		"Snapshot=t62.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 293 Ended $$$$$$
+
+****** Request Header For Transaction With Id 297 ******
+GET http://detectportal.firefox.com/success.txt HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Host: detectportal.firefox.com
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 297 Ended $$$$$$
+
+****** Response Header For Transaction With Id 297 ******
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: s21Wf3zKZlQvVaXiNfnkGbpUkoGbEvrHNgP0S4X9TlS7ZC0jXcZckQ==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Fri, 24 Nov 2017 04:21:01 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 297 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/login;JSESSIONID=ad6951b80219452ab479bb064b98ff4d
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 297 ****** (Location Flag : tFlagInsertAfter, Location ID : 293)
+	web_url("success.txt_3",
+		"URL=http://detectportal.firefox.com/success.txt",
+		"Resource=1",
+		"RecContentType=text/plain",
+		"Referer=",
+		"Snapshot=t63.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 297 Ended $$$$$$
+
+****** Request Header For Transaction With Id 301 ******
+GET http://detectportal.firefox.com/success.txt HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Host: detectportal.firefox.com
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 301 Ended $$$$$$
+
+****** Response Header For Transaction With Id 301 ******
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: s21Wf3zKZlQvVaXiNfnkGbpUkoGbEvrHNgP0S4X9TlS7ZC0jXcZckQ==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Fri, 24 Nov 2017 04:21:03 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 301 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/login;JSESSIONID=ad6951b80219452ab479bb064b98ff4d
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 301 ****** (Location Flag : tFlagInsertAfter, Location ID : 297)
+	web_url("success.txt_4",
+		"URL=http://detectportal.firefox.com/success.txt",
+		"Resource=1",
+		"RecContentType=text/plain",
+		"Referer=",
+		"Snapshot=t64.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 301 Ended $$$$$$
+
+****** Request Header For Transaction With Id 305 ******
+GET http://detectportal.firefox.com/success.txt HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Host: detectportal.firefox.com
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 305 Ended $$$$$$
+
+****** Response Header For Transaction With Id 305 ******
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: s21Wf3zKZlQvVaXiNfnkGbpUkoGbEvrHNgP0S4X9TlS7ZC0jXcZckQ==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Fri, 24 Nov 2017 04:21:08 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 305 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/login;JSESSIONID=ad6951b80219452ab479bb064b98ff4d
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 305 ****** (Location Flag : tFlagInsertAfter, Location ID : 301)
+	web_url("success.txt_5",
+		"URL=http://detectportal.firefox.com/success.txt",
+		"Resource=1",
+		"RecContentType=text/plain",
+		"Referer=",
+		"Snapshot=t65.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 305 Ended $$$$$$
+
+****** Request Header For Transaction With Id 309 ******
+GET http://detectportal.firefox.com/success.txt HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Host: detectportal.firefox.com
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 309 Ended $$$$$$
+
+****** Response Header For Transaction With Id 309 ******
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: s21Wf3zKZlQvVaXiNfnkGbpUkoGbEvrHNgP0S4X9TlS7ZC0jXcZckQ==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Fri, 24 Nov 2017 04:21:10 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 309 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/login;JSESSIONID=ad6951b80219452ab479bb064b98ff4d
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 309 ****** (Location Flag : tFlagInsertAfter, Location ID : 305)
+	web_url("success.txt_6",
+		"URL=http://detectportal.firefox.com/success.txt",
+		"Resource=1",
+		"RecContentType=text/plain",
+		"Referer=",
+		"Snapshot=t66.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 309 Ended $$$$$$
+
+****** Request Header For Transaction With Id 313 ******
+GET http://detectportal.firefox.com/success.txt HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Host: detectportal.firefox.com
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 313 Ended $$$$$$
+
+****** Response Header For Transaction With Id 313 ******
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: s21Wf3zKZlQvVaXiNfnkGbpUkoGbEvrHNgP0S4X9TlS7ZC0jXcZckQ==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Fri, 24 Nov 2017 04:21:12 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 313 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/login;JSESSIONID=ad6951b80219452ab479bb064b98ff4d
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 313 ****** (Location Flag : tFlagInsertAfter, Location ID : 309)
+	web_url("success.txt_7",
+		"URL=http://detectportal.firefox.com/success.txt",
+		"Resource=1",
+		"RecContentType=text/plain",
+		"Referer=",
+		"Snapshot=t67.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 313 Ended $$$$$$
+
+****** Request Header For Transaction With Id 317 ******
+GET http://detectportal.firefox.com/success.txt HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Host: detectportal.firefox.com
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 317 Ended $$$$$$
+
+****** Response Header For Transaction With Id 317 ******
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: s21Wf3zKZlQvVaXiNfnkGbpUkoGbEvrHNgP0S4X9TlS7ZC0jXcZckQ==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Fri, 24 Nov 2017 04:21:22 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 317 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/login;JSESSIONID=ad6951b80219452ab479bb064b98ff4d
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 317 ****** (Location Flag : tFlagInsertAfter, Location ID : 313)
+	web_url("success.txt_8",
+		"URL=http://detectportal.firefox.com/success.txt",
+		"Resource=1",
+		"RecContentType=text/plain",
+		"Referer=",
+		"Snapshot=t68.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 317 Ended $$$$$$
+
+****** Request Header For Transaction With Id 321 ******
+POST http://192.168.5.200:8082/GisqPlatformExplorer/a/login HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/login;JSESSIONID=ad6951b80219452ab479bb064b98ff4d
+Content-Type: application/x-www-form-urlencoded
+Cookie: gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Upgrade-Insecure-Requests: 1
+Host: 192.168.5.200:8082
+Content-Length: 27
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 321 Ended $$$$$$
+
+****** Request Body For Transaction With Id 321 ******
+username=zscs&password=1234
+$$$$$$ Request Body For Transaction With Id 321 Ended $$$$$$
+
+****** Response Header For Transaction With Id 321 ******
+HTTP/1.1 302 Found
+Server: Apache-Coyote/1.1
+Set-Cookie: rememberMe=deleteMe; Path=/GisqPlatformExplorer; Max-Age=0; Expires=Thu, 23-Nov-2017 04:21:31 GMT
+Location: http://192.168.5.200:8082/GisqPlatformExplorer/a?login
+Content-Length: 0
+Date: Fri, 24 Nov 2017 04:21:31 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 321 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/login;JSESSIONID=ad6951b80219452ab479bb064b98ff4d
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 324 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/a?login HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/login;JSESSIONID=ad6951b80219452ab479bb064b98ff4d
+Cookie: 23-Nov-2017 04:21:31 GMT; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Upgrade-Insecure-Requests: 1
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 324 Ended $$$$$$
+
+****** Response Header For Transaction With Id 324 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: text/html;charset=utf-8
+Content-Language: zh-CN
+Date: Fri, 24 Nov 2017 04:21:31 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 324 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/login
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 324 ****** (Location Flag : tFlagInsertEnd, Location ID : 324)
+	web_submit_data("login",
+		"Action=http://192.168.5.200:8082/GisqPlatformExplorer/a/login",
+		"Method=POST",
+		"RecContentType=text/html",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a/login;JSESSIONID=ad6951b80219452ab479bb064b98ff4d",
+		"Snapshot=t69.inf",
+		"Mode=HTTP",
+		ITEMDATA,
+		"Name=username", "Value=zscs", ENDITEM,
+		"Name=password", "Value=1234", ENDITEM,
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 324 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 324)
+	web_add_cookie("23-Nov-2017 04:21:31 GMT; DOMAIN=192.168.5.200");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 328 ******
+GET http://detectportal.firefox.com/success.txt HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Host: detectportal.firefox.com
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 328 Ended $$$$$$
+
+****** Response Header For Transaction With Id 328 ******
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: s21Wf3zKZlQvVaXiNfnkGbpUkoGbEvrHNgP0S4X9TlS7ZC0jXcZckQ==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Fri, 24 Nov 2017 04:21:33 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 328 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a?login
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 328 ****** (Location Flag : tFlagInsertEnd, Location ID : 328)
+	web_url("success.txt_9",
+		"URL=http://detectportal.firefox.com/success.txt",
+		"Resource=1",
+		"RecContentType=text/plain",
+		"Referer=",
+		"Snapshot=t70.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 328 Ended $$$$$$
+
+****** Request Header For Transaction With Id 332 ******
+GET http://detectportal.firefox.com/success.txt HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Host: detectportal.firefox.com
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 332 Ended $$$$$$
+
+****** Response Header For Transaction With Id 332 ******
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: s21Wf3zKZlQvVaXiNfnkGbpUkoGbEvrHNgP0S4X9TlS7ZC0jXcZckQ==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Fri, 24 Nov 2017 04:21:39 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 332 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a?login
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 1000324 ****** (Location Flag : tFlagInsertBefore, Location ID : 328)
+	web_concurrent_start(NULL);
+
+
+$$$$$$ Add Event For Transaction With Id 1000324 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertAfter, Location ID : 328)
+	web_concurrent_end(NULL);
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 332 ****** (Location Flag : tFlagInsertAfter, Location ID : 328)
+	web_url("success.txt_10",
+		"URL=http://detectportal.firefox.com/success.txt",
+		"Resource=1",
+		"RecContentType=text/plain",
+		"Referer=",
+		"Snapshot=t71.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 332 Ended $$$$$$
+
+****** Request Header For Transaction With Id 336 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/static/scripts/public/fPublicClass.js HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a?login
+Cookie: gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 336 Ended $$$$$$
+
+****** Response Header For Transaction With Id 336 ******
+HTTP/1.1 404 Not Found
+Server: Apache-Coyote/1.1
+Set-Cookie: JSESSIONID=F0EA3EDAB63E19CF52889B851C596CFE; Path=/GisqPlatformExplorer/; HttpOnly
+Content-Type: text/html;charset=UTF-8
+Content-Length: 378
+Date: Fri, 24 Nov 2017 04:21:40 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 336 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a?login
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 340 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/static/images/actinst.png HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a?login
+Cookie: gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 340 Ended $$$$$$
+
+****** Response Header For Transaction With Id 340 ******
+HTTP/1.1 404 Not Found
+Server: Apache-Coyote/1.1
+Set-Cookie: JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; Path=/GisqPlatformExplorer/; HttpOnly
+Content-Type: text/html;charset=UTF-8
+Content-Length: 378
+Date: Fri, 24 Nov 2017 04:21:43 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 340 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a?login
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 344 ******
+POST http://192.168.5.200:8082/GisqPlatformExplorer/a/myproject HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a?login
+Content-Type: application/json;charset=utf-8
+X-Requested-With: XMLHttpRequest
+Cookie: 23-Nov-2017 04:21:31 GMT; JSESSIONID=F0EA3EDAB63E19CF52889B851C596CFE; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Content-Length: 0
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 344 Ended $$$$$$
+
+****** Response Header For Transaction With Id 344 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Date: Fri, 24 Nov 2017 04:21:43 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 344 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a?login
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 344 ****** (Location Flag : tFlagInsertEnd, Location ID : 344)
+	web_custom_request("myproject",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/a/myproject",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=application/json",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a?login",
+		"Snapshot=t72.inf",
+		"Mode=HTTP",
+		"EncType=application/json;charset=utf-8",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 344 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 344)
+	web_add_cookie("JSESSIONID=F0EA3EDAB63E19CF52889B851C596CFE; DOMAIN=192.168.5.200");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 348 ******
+GET http://192.168.5.200:8034/GisqRealEstate-Explorer/Tips?login&businesskey=&bsm=&callback=tipsResult&_=1511497312412 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a?login
+Cookie: _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8034
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 348 Ended $$$$$$
+
+****** Response Header For Transaction With Id 348 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: text/javascript;charset=UTF-8
+Content-Length: 20
+Date: Fri, 24 Nov 2017 04:21:43 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 348 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/myproject
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 348 ****** (Location Flag : tFlagInsertEnd, Location ID : 348)
+	web_url("Tips",
+		"URL=http://192.168.5.200:8034/GisqRealEstate-Explorer/Tips?login&businesskey=&bsm=&callback=tipsResult&_=1511497312412",
+		"Resource=1",
+		"RecContentType=text/javascript",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a?login",
+		"Snapshot=t73.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 348 Ended $$$$$$
+
+****** Request Header For Transaction With Id 352 ******
+GET http://192.168.5.200:8034/GisqRealEstate-Explorer/Tips?login&username=zscs&flag=circle&callback=tipsResultCircle&_=1511497312410 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a?login
+Cookie: _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8034
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 352 Ended $$$$$$
+
+****** Response Header For Transaction With Id 352 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: text/javascript;charset=UTF-8
+Content-Length: 26
+Date: Fri, 24 Nov 2017 04:21:43 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 352 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/myproject
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 1000344 ****** (Location Flag : tFlagInsertBefore, Location ID : 348)
+	web_concurrent_start(NULL);
+
+
+$$$$$$ Add Event For Transaction With Id 1000344 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertAfter, Location ID : 348)
+	web_concurrent_end(NULL);
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 352 ****** (Location Flag : tFlagInsertAfter, Location ID : 348)
+	web_url("Tips_2",
+		"URL=http://192.168.5.200:8034/GisqRealEstate-Explorer/Tips?login&username=zscs&flag=circle&callback=tipsResultCircle&_=1511497312410",
+		"Resource=1",
+		"RecContentType=text/javascript",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a?login",
+		"Snapshot=t74.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 352 Ended $$$$$$
+
+****** Request Header For Transaction With Id 356 ******
+POST http://192.168.5.200:8082/GisqPlatformExplorer/platform-rest/funcmgr/getAllFuncGroupAndItem/zscs?disabled=0 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a?login
+Content-Type: application/json;charset=utf-8
+X-Requested-With: XMLHttpRequest
+Cookie: JSESSIONID=F0EA3EDAB63E19CF52889B851C596CFE; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Content-Length: 2
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 356 Ended $$$$$$
+
+****** Request Body For Transaction With Id 356 ******
+[]
+$$$$$$ Request Body For Transaction With Id 356 Ended $$$$$$
+
+****** Response Header For Transaction With Id 356 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=utf-8
+Date: Fri, 24 Nov 2017 04:21:43 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 356 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/myproject
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 356 ****** (Location Flag : tFlagInsertEnd, Location ID : 356)
+	web_custom_request("zscs",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/platform-rest/funcmgr/getAllFuncGroupAndItem/zscs?disabled=0",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=application/json",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a?login",
+		"Snapshot=t75.inf",
+		"Mode=HTTP",
+		"EncType=application/json;charset=utf-8",
+		"Body=[]",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 356 Ended $$$$$$
+
+****** Request Header For Transaction With Id 360 ******
+GET http://detectportal.firefox.com/success.txt HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Host: detectportal.firefox.com
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 360 Ended $$$$$$
+
+****** Response Header For Transaction With Id 360 ******
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: s21Wf3zKZlQvVaXiNfnkGbpUkoGbEvrHNgP0S4X9TlS7ZC0jXcZckQ==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Fri, 24 Nov 2017 04:21:50 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 360 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/platform-rest/funcmgr/getAllFuncGroupAndItem/zscs?disabled=0
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 360 ****** (Location Flag : tFlagInsertEnd, Location ID : 360)
+	web_url("success.txt_11",
+		"URL=http://detectportal.firefox.com/success.txt",
+		"Resource=1",
+		"RecContentType=text/plain",
+		"Referer=",
+		"Snapshot=t76.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 360 Ended $$$$$$
+
+****** Request Header For Transaction With Id 364 ******
+GET http://detectportal.firefox.com/success.txt HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Host: detectportal.firefox.com
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 364 Ended $$$$$$
+
+****** Response Header For Transaction With Id 364 ******
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: s21Wf3zKZlQvVaXiNfnkGbpUkoGbEvrHNgP0S4X9TlS7ZC0jXcZckQ==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Fri, 24 Nov 2017 04:21:55 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 364 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/platform-rest/funcmgr/getAllFuncGroupAndItem/zscs?disabled=0
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 1000356 ****** (Location Flag : tFlagInsertBefore, Location ID : 360)
+	web_concurrent_start(NULL);
+
+
+$$$$$$ Add Event For Transaction With Id 1000356 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertAfter, Location ID : 360)
+	web_concurrent_end(NULL);
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 364 ****** (Location Flag : tFlagInsertAfter, Location ID : 360)
+	web_url("success.txt_12",
+		"URL=http://detectportal.firefox.com/success.txt",
+		"Resource=1",
+		"RecContentType=text/plain",
+		"Referer=",
+		"Snapshot=t77.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 364 Ended $$$$$$
+
+****** Request Header For Transaction With Id 368 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/getRoleId HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a?login
+X-Requested-With: XMLHttpRequest
+Cookie: 23-Nov-2017 04:21:31 GMT; JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 368 Ended $$$$$$
+
+****** Response Header For Transaction With Id 368 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Date: Fri, 24 Nov 2017 04:21:56 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 368 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/platform-rest/funcmgr/getAllFuncGroupAndItem/zscs?disabled=0
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 368 ****** (Location Flag : tFlagInsertAfter, Location ID : 364)
+	web_url("getRoleId",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/getRoleId",
+		"Resource=1",
+		"RecContentType=application/json",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a?login",
+		"Snapshot=t78.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 368 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 1000356)
+	web_add_cookie("userName=zscs; DOMAIN=192.168.5.200");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 372 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/a/sysconfig/tip/judgeTips HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: application/json, text/javascript, */*; q=0.01
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a?login
+Content-Type: application/json; charset=utf-8
+X-Requested-With: XMLHttpRequest
+Cookie: 23-Nov-2017 04:21:31 GMT; JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 372 Ended $$$$$$
+
+****** Response Header For Transaction With Id 372 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Accept-Charset: big5, big5-hkscs, cesu-8, euc-jp, euc-kr, gb18030, gb2312, gbk, ibm-thai, ibm00858, ibm01140, ibm01141, ibm01142, ibm01143, ibm01144, ibm01145, ibm01146, ibm01147, ibm01148, ibm01149, ibm037, ibm1026, ibm1047, ibm273, ibm277, ibm278, ibm280, ibm284, ibm285, ibm290, ibm297, ibm420, ibm424, ibm437, ibm500, ibm775, ibm850, ibm852, ibm855, ibm857, ibm860, ibm861, ibm862, ibm863, ibm864, ibm865, ibm866, ibm868, ibm869, ibm870, ibm871, ibm918, iso-2022-cn, iso-2022-jp, iso-2022-jp-2, iso-2022-kr, iso-8859-1, iso-8859-13, iso-8859-15, iso-8859-2, iso-8859-3, iso-8859-4, iso-8859-5, iso-8859-6, iso-8859-7, iso-8859-8, iso-8859-9, jis_x0201, jis_x0212-1990, koi8-r, koi8-u, shift_jis, tis-620, us-ascii, utf-16, utf-16be, utf-16le, utf-32, utf-32be, utf-32le, utf-8, windows-1250, windows-1251, windows-1252, windows-1253, windows-1254, windows-1255, windows-1256, windows-1257, windows-1258, windows-31j, x-big5-hkscs-2001, x-big5-solaris, x-euc-jp-linux, x-euc-tw, x-eucjp-open, x-ibm1006, x-ibm1025, x-ibm1046, x-ibm1097, x-ibm1098, x-ibm1112, x-ibm1122, x-ibm1123, x-ibm1124, x-ibm1364, x-ibm1381, x-ibm1383, x-ibm300, x-ibm33722, x-ibm737, x-ibm833, x-ibm834, x-ibm856, x-ibm874, x-ibm875, x-ibm921, x-ibm922, x-ibm930, x-ibm933, x-ibm935, x-ibm937, x-ibm939, x-ibm942, x-ibm942c, x-ibm943, x-ibm943c, x-ibm948, x-ibm949, x-ibm949c, x-ibm950, x-ibm964, x-ibm970, x-iscii91, x-iso-2022-cn-cns, x-iso-2022-cn-gb, x-iso-8859-11, x-jis0208, x-jisautodetect, x-johab, x-macarabic, x-maccentraleurope, x-maccroatian, x-maccyrillic, x-macdingbat, x-macgreek, x-machebrew, x-maciceland, x-macroman, x-macromania, x-macsymbol, x-macthai, x-macturkish, x-macukraine, x-ms932_0213, x-ms950-hkscs, x-ms950-hkscs-xp, x-mswin-936, x-pck, x-sjis_0213, x-utf-16le-bom, x-utf-32be-bom, x-utf-32le-bom, x-windows-50220, x-windows-50221, x-windows-874, x-windows-949, x-windows-950, x-windows-iso2022jp
+Content-Type: application/json;charset=UTF-8
+Content-Length: 22
+Date: Fri, 24 Nov 2017 04:21:56 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 372 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/platform-rest/funcmgr/getAllFuncGroupAndItem/zscs?disabled=0
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 372 ****** (Location Flag : tFlagInsertAfter, Location ID : 368)
+	web_custom_request("judgeTips",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/a/sysconfig/tip/judgeTips",
+		"Method=GET",
+		"Resource=1",
+		"RecContentType=application/json",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a?login",
+		"Snapshot=t79.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 372 Ended $$$$$$
+
+****** Request Header For Transaction With Id 376 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/processManager?userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs&0.8876113475995799 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a?login
+Cookie: 23-Nov-2017 04:21:31 GMT; JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Upgrade-Insecure-Requests: 1
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 376 Ended $$$$$$
+
+****** Response Header For Transaction With Id 376 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: text/html;charset=UTF-8
+Content-Language: zh-CN
+Date: Fri, 24 Nov 2017 04:21:56 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 376 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/platform-rest/funcmgr/getAllFuncGroupAndItem/zscs?disabled=0
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 376 ****** (Location Flag : tFlagInsertEnd, Location ID : 376)
+	web_url("processManager",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/processManager?userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs&0.8876113475995799",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a?login",
+		"Snapshot=t80.inf",
+		"Mode=HTTP",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 376 Ended $$$$$$
+
+****** Request Header For Transaction With Id 380 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/suspendTimeoutListForQuery HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: application/json, text/javascript, */*; q=0.01
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a?login
+Content-Type: application/json; charset=utf-8
+X-Requested-With: XMLHttpRequest
+Cookie: 23-Nov-2017 04:21:31 GMT; JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 380 Ended $$$$$$
+
+****** Response Header For Transaction With Id 380 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Accept-Charset: big5, big5-hkscs, cesu-8, euc-jp, euc-kr, gb18030, gb2312, gbk, ibm-thai, ibm00858, ibm01140, ibm01141, ibm01142, ibm01143, ibm01144, ibm01145, ibm01146, ibm01147, ibm01148, ibm01149, ibm037, ibm1026, ibm1047, ibm273, ibm277, ibm278, ibm280, ibm284, ibm285, ibm290, ibm297, ibm420, ibm424, ibm437, ibm500, ibm775, ibm850, ibm852, ibm855, ibm857, ibm860, ibm861, ibm862, ibm863, ibm864, ibm865, ibm866, ibm868, ibm869, ibm870, ibm871, ibm918, iso-2022-cn, iso-2022-jp, iso-2022-jp-2, iso-2022-kr, iso-8859-1, iso-8859-13, iso-8859-15, iso-8859-2, iso-8859-3, iso-8859-4, iso-8859-5, iso-8859-6, iso-8859-7, iso-8859-8, iso-8859-9, jis_x0201, jis_x0212-1990, koi8-r, koi8-u, shift_jis, tis-620, us-ascii, utf-16, utf-16be, utf-16le, utf-32, utf-32be, utf-32le, utf-8, windows-1250, windows-1251, windows-1252, windows-1253, windows-1254, windows-1255, windows-1256, windows-1257, windows-1258, windows-31j, x-big5-hkscs-2001, x-big5-solaris, x-euc-jp-linux, x-euc-tw, x-eucjp-open, x-ibm1006, x-ibm1025, x-ibm1046, x-ibm1097, x-ibm1098, x-ibm1112, x-ibm1122, x-ibm1123, x-ibm1124, x-ibm1364, x-ibm1381, x-ibm1383, x-ibm300, x-ibm33722, x-ibm737, x-ibm833, x-ibm834, x-ibm856, x-ibm874, x-ibm875, x-ibm921, x-ibm922, x-ibm930, x-ibm933, x-ibm935, x-ibm937, x-ibm939, x-ibm942, x-ibm942c, x-ibm943, x-ibm943c, x-ibm948, x-ibm949, x-ibm949c, x-ibm950, x-ibm964, x-ibm970, x-iscii91, x-iso-2022-cn-cns, x-iso-2022-cn-gb, x-iso-8859-11, x-jis0208, x-jisautodetect, x-johab, x-macarabic, x-maccentraleurope, x-maccroatian, x-maccyrillic, x-macdingbat, x-macgreek, x-machebrew, x-maciceland, x-macroman, x-macromania, x-macsymbol, x-macthai, x-macturkish, x-macukraine, x-ms932_0213, x-ms950-hkscs, x-ms950-hkscs-xp, x-mswin-936, x-pck, x-sjis_0213, x-utf-16le-bom, x-utf-32be-bom, x-utf-32le-bom, x-windows-50220, x-windows-50221, x-windows-874, x-windows-949, x-windows-950, x-windows-iso2022jp
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 96
+Date: Fri, 24 Nov 2017 04:21:56 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 380 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/processManager?userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs&0.8876113475995799
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 380 ****** (Location Flag : tFlagInsertEnd, Location ID : 380)
+	web_custom_request("suspendTimeoutListForQuery",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/suspendTimeoutListForQuery",
+		"Method=GET",
+		"Resource=1",
+		"RecContentType=text/plain",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a?login",
+		"Snapshot=t81.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 380 Ended $$$$$$
+
+****** Request Header For Transaction With Id 384 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/a/indexFile/taskCount?missionType=active%7Copened HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/processManager?userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs&0.8876113475995799
+Content-Type: application/json; charset=utf-8
+X-Requested-With: XMLHttpRequest
+Cookie: 23-Nov-2017 04:21:31 GMT; JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 384 Ended $$$$$$
+
+****** Response Header For Transaction With Id 384 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Date: Fri, 24 Nov 2017 04:22:17 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 384 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/processManager?userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs&0.8876113475995799
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 1000376 ****** (Location Flag : tFlagInsertBefore, Location ID : 380)
+	web_concurrent_start(NULL);
+
+
+$$$$$$ Add Event For Transaction With Id 1000376 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertAfter, Location ID : 380)
+	web_concurrent_end(NULL);
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 384 ****** (Location Flag : tFlagInsertAfter, Location ID : 380)
+	web_custom_request("taskCount",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/a/indexFile/taskCount?missionType=active%7Copened",
+		"Method=GET",
+		"Resource=1",
+		"RecContentType=application/json",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/processManager?userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs&0.8876113475995799",
+		"Snapshot=t82.inf",
+		"EncType=application/json; charset=utf-8",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 384 Ended $$$$$$
+
+****** Request Header For Transaction With Id 388 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/activitiProcessForQuery?latest=true&isRole=true HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/processManager?userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs&0.8876113475995799
+Content-Type: application/json; charset=utf-8
+X-Requested-With: XMLHttpRequest
+Cookie: 23-Nov-2017 04:21:31 GMT; JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 388 Ended $$$$$$
+
+****** Response Header For Transaction With Id 388 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Accept-Charset: big5, big5-hkscs, cesu-8, euc-jp, euc-kr, gb18030, gb2312, gbk, ibm-thai, ibm00858, ibm01140, ibm01141, ibm01142, ibm01143, ibm01144, ibm01145, ibm01146, ibm01147, ibm01148, ibm01149, ibm037, ibm1026, ibm1047, ibm273, ibm277, ibm278, ibm280, ibm284, ibm285, ibm290, ibm297, ibm420, ibm424, ibm437, ibm500, ibm775, ibm850, ibm852, ibm855, ibm857, ibm860, ibm861, ibm862, ibm863, ibm864, ibm865, ibm866, ibm868, ibm869, ibm870, ibm871, ibm918, iso-2022-cn, iso-2022-jp, iso-2022-jp-2, iso-2022-kr, iso-8859-1, iso-8859-13, iso-8859-15, iso-8859-2, iso-8859-3, iso-8859-4, iso-8859-5, iso-8859-6, iso-8859-7, iso-8859-8, iso-8859-9, jis_x0201, jis_x0212-1990, koi8-r, koi8-u, shift_jis, tis-620, us-ascii, utf-16, utf-16be, utf-16le, utf-32, utf-32be, utf-32le, utf-8, windows-1250, windows-1251, windows-1252, windows-1253, windows-1254, windows-1255, windows-1256, windows-1257, windows-1258, windows-31j, x-big5-hkscs-2001, x-big5-solaris, x-euc-jp-linux, x-euc-tw, x-eucjp-open, x-ibm1006, x-ibm1025, x-ibm1046, x-ibm1097, x-ibm1098, x-ibm1112, x-ibm1122, x-ibm1123, x-ibm1124, x-ibm1364, x-ibm1381, x-ibm1383, x-ibm300, x-ibm33722, x-ibm737, x-ibm833, x-ibm834, x-ibm856, x-ibm874, x-ibm875, x-ibm921, x-ibm922, x-ibm930, x-ibm933, x-ibm935, x-ibm937, x-ibm939, x-ibm942, x-ibm942c, x-ibm943, x-ibm943c, x-ibm948, x-ibm949, x-ibm949c, x-ibm950, x-ibm964, x-ibm970, x-iscii91, x-iso-2022-cn-cns, x-iso-2022-cn-gb, x-iso-8859-11, x-jis0208, x-jisautodetect, x-johab, x-macarabic, x-maccentraleurope, x-maccroatian, x-maccyrillic, x-macdingbat, x-macgreek, x-machebrew, x-maciceland, x-macroman, x-macromania, x-macsymbol, x-macthai, x-macturkish, x-macukraine, x-ms932_0213, x-ms950-hkscs, x-ms950-hkscs-xp, x-mswin-936, x-pck, x-sjis_0213, x-utf-16le-bom, x-utf-32be-bom, x-utf-32le-bom, x-windows-50220, x-windows-50221, x-windows-874, x-windows-949, x-windows-950, x-windows-iso2022jp
+Content-Type: application/json;charset=UTF-8
+Content-Length: 291306
+Date: Fri, 24 Nov 2017 04:22:17 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 388 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/processManager?userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs&0.8876113475995799
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 388 ****** (Location Flag : tFlagInsertAfter, Location ID : 384)
+	web_custom_request("activitiProcessForQuery",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/activitiProcessForQuery?latest=true&isRole=true",
+		"Method=GET",
+		"Resource=1",
+		"RecContentType=application/json",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/processManager?userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs&0.8876113475995799",
+		"Snapshot=t83.inf",
+		"EncType=application/json; charset=utf-8",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 388 Ended $$$$$$
+
+****** Request Header For Transaction With Id 392 ******
+GET http://detectportal.firefox.com/success.txt HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Host: detectportal.firefox.com
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 392 Ended $$$$$$
+
+****** Response Header For Transaction With Id 392 ******
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: s21Wf3zKZlQvVaXiNfnkGbpUkoGbEvrHNgP0S4X9TlS7ZC0jXcZckQ==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Fri, 24 Nov 2017 04:22:22 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 392 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/processManager?userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs&0.8876113475995799
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 392 ****** (Location Flag : tFlagInsertAfter, Location ID : 388)
+	web_url("success.txt_13",
+		"URL=http://detectportal.firefox.com/success.txt",
+		"Resource=1",
+		"RecContentType=text/plain",
+		"Referer=",
+		"Snapshot=t84.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 392 Ended $$$$$$
+
+****** Request Header For Transaction With Id 396 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs&0.0698173447128757 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a?login
+Cookie: 23-Nov-2017 04:21:31 GMT; JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Upgrade-Insecure-Requests: 1
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 396 Ended $$$$$$
+
+****** Response Header For Transaction With Id 396 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: text/html;charset=UTF-8
+Content-Language: zh-CN
+Date: Fri, 24 Nov 2017 04:22:20 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 396 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/processManager?userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs&0.8876113475995799
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 396 ****** (Location Flag : tFlagInsertEnd, Location ID : 396)
+	web_url("index",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs&0.0698173447128757",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a?login",
+		"Snapshot=t85.inf",
+		"Mode=HTTP",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 396 Ended $$$$$$
+
+****** Request Header For Transaction With Id 400 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a?login
+Cookie: 23-Nov-2017 04:21:31 GMT; JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Upgrade-Insecure-Requests: 1
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 400 Ended $$$$$$
+
+****** Response Header For Transaction With Id 400 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: text/html;charset=UTF-8
+Content-Language: zh-CN
+Date: Fri, 24 Nov 2017 04:22:20 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 400 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs&0.0698173447128757
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 400 ****** (Location Flag : tFlagInsertEnd, Location ID : 400)
+	web_url("index_2",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a?login",
+		"Snapshot=t86.inf",
+		"Mode=HTTP",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 400 Ended $$$$$$
+
+****** Request Header For Transaction With Id 404 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/modelcategories?guid=parentId HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/processManager?userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs&0.8876113475995799
+Content-Type: application/json; charset=utf-8
+X-Requested-With: XMLHttpRequest
+Cookie: 23-Nov-2017 04:21:31 GMT; JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 404 Ended $$$$$$
+
+****** Response Header For Transaction With Id 404 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Accept-Charset: big5, big5-hkscs, cesu-8, euc-jp, euc-kr, gb18030, gb2312, gbk, ibm-thai, ibm00858, ibm01140, ibm01141, ibm01142, ibm01143, ibm01144, ibm01145, ibm01146, ibm01147, ibm01148, ibm01149, ibm037, ibm1026, ibm1047, ibm273, ibm277, ibm278, ibm280, ibm284, ibm285, ibm290, ibm297, ibm420, ibm424, ibm437, ibm500, ibm775, ibm850, ibm852, ibm855, ibm857, ibm860, ibm861, ibm862, ibm863, ibm864, ibm865, ibm866, ibm868, ibm869, ibm870, ibm871, ibm918, iso-2022-cn, iso-2022-jp, iso-2022-jp-2, iso-2022-kr, iso-8859-1, iso-8859-13, iso-8859-15, iso-8859-2, iso-8859-3, iso-8859-4, iso-8859-5, iso-8859-6, iso-8859-7, iso-8859-8, iso-8859-9, jis_x0201, jis_x0212-1990, koi8-r, koi8-u, shift_jis, tis-620, us-ascii, utf-16, utf-16be, utf-16le, utf-32, utf-32be, utf-32le, utf-8, windows-1250, windows-1251, windows-1252, windows-1253, windows-1254, windows-1255, windows-1256, windows-1257, windows-1258, windows-31j, x-big5-hkscs-2001, x-big5-solaris, x-euc-jp-linux, x-euc-tw, x-eucjp-open, x-ibm1006, x-ibm1025, x-ibm1046, x-ibm1097, x-ibm1098, x-ibm1112, x-ibm1122, x-ibm1123, x-ibm1124, x-ibm1364, x-ibm1381, x-ibm1383, x-ibm300, x-ibm33722, x-ibm737, x-ibm833, x-ibm834, x-ibm856, x-ibm874, x-ibm875, x-ibm921, x-ibm922, x-ibm930, x-ibm933, x-ibm935, x-ibm937, x-ibm939, x-ibm942, x-ibm942c, x-ibm943, x-ibm943c, x-ibm948, x-ibm949, x-ibm949c, x-ibm950, x-ibm964, x-ibm970, x-iscii91, x-iso-2022-cn-cns, x-iso-2022-cn-gb, x-iso-8859-11, x-jis0208, x-jisautodetect, x-johab, x-macarabic, x-maccentraleurope, x-maccroatian, x-maccyrillic, x-macdingbat, x-macgreek, x-machebrew, x-maciceland, x-macroman, x-macromania, x-macsymbol, x-macthai, x-macturkish, x-macukraine, x-ms932_0213, x-ms950-hkscs, x-ms950-hkscs-xp, x-mswin-936, x-pck, x-sjis_0213, x-utf-16le-bom, x-utf-32be-bom, x-utf-32le-bom, x-windows-50220, x-windows-50221, x-windows-874, x-windows-949, x-windows-950, x-windows-iso2022jp
+Content-Type: application/json;charset=utf-8
+Content-Length: 25193
+Date: Fri, 24 Nov 2017 04:22:20 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 404 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 404 ****** (Location Flag : tFlagInsertEnd, Location ID : 404)
+	web_custom_request("modelcategories",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/modelcategories?guid=parentId",
+		"Method=GET",
+		"Resource=1",
+		"RecContentType=application/json",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/processManager?userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs&0.8876113475995799",
+		"Snapshot=t87.inf",
+		"EncType=application/json; charset=utf-8",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 404 Ended $$$$$$
+
+****** Request Header For Transaction With Id 408 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/globalization/globalize.culture.zh-CN.min.js HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+Cookie: JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 408 Ended $$$$$$
+
+****** Response Header For Transaction With Id 408 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Last-Modified: Fri, 20 Jan 2017 01:20:40 GMT
+Cache-Control: max-age=31536000
+Accept-Ranges: bytes
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 1240
+Date: Fri, 24 Nov 2017 04:22:30 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 408 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 1000400 ****** (Location Flag : tFlagInsertBefore, Location ID : 404)
+	web_concurrent_start(NULL);
+
+
+$$$$$$ Add Event For Transaction With Id 1000400 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertAfter, Location ID : 404)
+	web_concurrent_end(NULL);
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 408 ****** (Location Flag : tFlagInsertAfter, Location ID : 404)
+	web_url("globalize.culture.zh-CN.min.js",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/globalization/globalize.culture.zh-CN.min.js",
+		"Resource=1",
+		"RecContentType=application/javascript",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs",
+		"Snapshot=t88.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 408 Ended $$$$$$
+
+****** Request Header For Transaction With Id 412 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/styles/jqx.energyblue.min.css HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+Cookie: JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 412 Ended $$$$$$
+
+****** Response Header For Transaction With Id 412 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Last-Modified: Fri, 20 Jan 2017 01:20:40 GMT
+Cache-Control: max-age=31536000
+Accept-Ranges: bytes
+Content-Type: text/css;charset=UTF-8
+Content-Length: 1474
+Date: Fri, 24 Nov 2017 04:22:30 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 412 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 412 ****** (Location Flag : tFlagInsertAfter, Location ID : 408)
+	web_url("jqx.energyblue.min.css",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/styles/jqx.energyblue.min.css",
+		"Resource=1",
+		"RecContentType=text/css",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs",
+		"Snapshot=t89.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 412 Ended $$$$$$
+
+****** Request Header For Transaction With Id 416 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/globalization/globalize.min.js HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+Cookie: JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 416 Ended $$$$$$
+
+****** Response Header For Transaction With Id 416 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Last-Modified: Fri, 20 Jan 2017 01:20:40 GMT
+Cache-Control: max-age=31536000
+Accept-Ranges: bytes
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 15271
+Date: Fri, 24 Nov 2017 04:22:30 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 416 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 416 ****** (Location Flag : tFlagInsertAfter, Location ID : 412)
+	web_url("globalize.min.js",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/globalization/globalize.min.js",
+		"Resource=1",
+		"RecContentType=application/javascript",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs",
+		"Snapshot=t90.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 416 Ended $$$$$$
+
+****** Request Header For Transaction With Id 420 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxbuttons.min.js HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+Cookie: JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 420 Ended $$$$$$
+
+****** Response Header For Transaction With Id 420 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Last-Modified: Fri, 20 Jan 2017 01:20:32 GMT
+Cache-Control: max-age=31536000
+Accept-Ranges: bytes
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 12409
+Date: Fri, 24 Nov 2017 04:22:30 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 420 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 420 ****** (Location Flag : tFlagInsertAfter, Location ID : 416)
+	web_url("jqxbuttons.min.js",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxbuttons.min.js",
+		"Resource=1",
+		"RecContentType=application/javascript",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs",
+		"Snapshot=t91.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 420 Ended $$$$$$
+
+****** Request Header For Transaction With Id 424 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxcore.min.js HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+Cookie: JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 424 Ended $$$$$$
+
+****** Response Header For Transaction With Id 424 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Last-Modified: Fri, 20 Jan 2017 01:20:32 GMT
+Cache-Control: max-age=31536000
+Accept-Ranges: bytes
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 35752
+Date: Fri, 24 Nov 2017 04:22:30 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 424 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 424 ****** (Location Flag : tFlagInsertAfter, Location ID : 420)
+	web_url("jqxcore.min.js",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxcore.min.js",
+		"Resource=1",
+		"RecContentType=application/javascript",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs",
+		"Snapshot=t92.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 424 Ended $$$$$$
+
+****** Request Header For Transaction With Id 428 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/styles/jqx.base.min.css HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+Cookie: JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 428 Ended $$$$$$
+
+****** Response Header For Transaction With Id 428 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Last-Modified: Fri, 20 Jan 2017 01:20:40 GMT
+Cache-Control: max-age=31536000
+Accept-Ranges: bytes
+Content-Type: text/css;charset=UTF-8
+Content-Length: 106259
+Date: Fri, 24 Nov 2017 04:22:30 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 428 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 428 ****** (Location Flag : tFlagInsertAfter, Location ID : 424)
+	web_url("jqx.base.min.css",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/styles/jqx.base.min.css",
+		"Resource=1",
+		"RecContentType=text/css",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs",
+		"Snapshot=t93.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 428 Ended $$$$$$
+
+****** Request Header For Transaction With Id 432 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxscrollbar.min.js HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+Cookie: JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 432 Ended $$$$$$
+
+****** Response Header For Transaction With Id 432 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Last-Modified: Fri, 20 Jan 2017 01:20:44 GMT
+Cache-Control: max-age=31536000
+Accept-Ranges: bytes
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 28982
+Date: Fri, 24 Nov 2017 04:22:30 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 432 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 432 ****** (Location Flag : tFlagInsertAfter, Location ID : 428)
+	web_url("jqxscrollbar.min.js",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxscrollbar.min.js",
+		"Resource=1",
+		"RecContentType=application/javascript",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs",
+		"Snapshot=t94.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 432 Ended $$$$$$
+
+****** Request Header For Transaction With Id 436 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxlistbox.min.js HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+Cookie: JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 436 Ended $$$$$$
+
+****** Response Header For Transaction With Id 436 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Last-Modified: Fri, 20 Jan 2017 01:20:44 GMT
+Cache-Control: max-age=31536000
+Accept-Ranges: bytes
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 77793
+Date: Fri, 24 Nov 2017 04:22:32 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 436 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 436 ****** (Location Flag : tFlagInsertAfter, Location ID : 432)
+	web_url("jqxlistbox.min.js",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxlistbox.min.js",
+		"Resource=1",
+		"RecContentType=application/javascript",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs",
+		"Snapshot=t95.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 436 Ended $$$$$$
+
+****** Request Header For Transaction With Id 440 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxdata.min.js HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+Cookie: JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 440 Ended $$$$$$
+
+****** Response Header For Transaction With Id 440 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Last-Modified: Fri, 20 Jan 2017 01:20:32 GMT
+Cache-Control: max-age=31536000
+Accept-Ranges: bytes
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 93122
+Date: Fri, 24 Nov 2017 04:22:32 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 440 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 440 ****** (Location Flag : tFlagInsertAfter, Location ID : 436)
+	web_url("jqxdata.min.js",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxdata.min.js",
+		"Resource=1",
+		"RecContentType=application/javascript",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs",
+		"Snapshot=t96.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 440 Ended $$$$$$
+
+****** Request Header For Transaction With Id 444 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxdatatable.js HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+Cookie: JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 444 Ended $$$$$$
+
+****** Response Header For Transaction With Id 444 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Last-Modified: Fri, 20 Jan 2017 01:20:32 GMT
+Cache-Control: max-age=31536000
+Accept-Ranges: bytes
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 222030
+Date: Fri, 24 Nov 2017 04:22:33 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 444 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 444 ****** (Location Flag : tFlagInsertAfter, Location ID : 440)
+	web_url("jqxdatatable.js",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxdatatable.js",
+		"Resource=1",
+		"RecContentType=application/javascript",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs",
+		"Snapshot=t97.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 444 Ended $$$$$$
+
+****** Request Header For Transaction With Id 448 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxtreegrid.js HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+Cookie: JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 448 Ended $$$$$$
+
+****** Response Header For Transaction With Id 448 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Last-Modified: Fri, 20 Jan 2017 01:20:32 GMT
+Cache-Control: max-age=31536000
+Accept-Ranges: bytes
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 24637
+Date: Fri, 24 Nov 2017 04:22:33 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 448 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 448 ****** (Location Flag : tFlagInsertAfter, Location ID : 444)
+	web_url("jqxtreegrid.js",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxtreegrid.js",
+		"Resource=1",
+		"RecContentType=application/javascript",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs",
+		"Snapshot=t98.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 448 Ended $$$$$$
+
+****** Request Header For Transaction With Id 452 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxtreegrid.min.js HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+Cookie: JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 452 Ended $$$$$$
+
+****** Response Header For Transaction With Id 452 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Last-Modified: Fri, 20 Jan 2017 01:20:44 GMT
+Cache-Control: max-age=31536000
+Accept-Ranges: bytes
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 25094
+Date: Fri, 24 Nov 2017 04:22:35 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 452 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 452 ****** (Location Flag : tFlagInsertAfter, Location ID : 448)
+	web_url("jqxtreegrid.min.js",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxtreegrid.min.js",
+		"Resource=1",
+		"RecContentType=application/javascript",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs",
+		"Snapshot=t99.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 452 Ended $$$$$$
+
+****** Request Header For Transaction With Id 456 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxdropdownlist.min.js HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+Cookie: JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 456 Ended $$$$$$
+
+****** Response Header For Transaction With Id 456 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Last-Modified: Fri, 20 Jan 2017 01:20:44 GMT
+Cache-Control: max-age=31536000
+Accept-Ranges: bytes
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 38008
+Date: Fri, 24 Nov 2017 04:22:36 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 456 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 456 ****** (Location Flag : tFlagInsertAfter, Location ID : 452)
+	web_url("jqxdropdownlist.min.js",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxdropdownlist.min.js",
+		"Resource=1",
+		"RecContentType=application/javascript",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs",
+		"Snapshot=t100.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 456 Ended $$$$$$
+
+****** Request Header For Transaction With Id 460 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxtooltip.min.js HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+Cookie: JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 460 Ended $$$$$$
+
+****** Response Header For Transaction With Id 460 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Last-Modified: Fri, 20 Jan 2017 01:20:32 GMT
+Cache-Control: max-age=31536000
+Accept-Ranges: bytes
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 23586
+Date: Fri, 24 Nov 2017 04:22:36 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 460 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 460 ****** (Location Flag : tFlagInsertAfter, Location ID : 456)
+	web_url("jqxtooltip.min.js",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxtooltip.min.js",
+		"Resource=1",
+		"RecContentType=application/javascript",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs",
+		"Snapshot=t101.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 460 Ended $$$$$$
+
+****** Request Header For Transaction With Id 464 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxcheckbox.js HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+Cookie: JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 464 Ended $$$$$$
+
+****** Response Header For Transaction With Id 464 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Last-Modified: Fri, 20 Jan 2017 01:20:40 GMT
+Cache-Control: max-age=31536000
+Accept-Ranges: bytes
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 12253
+Date: Fri, 24 Nov 2017 04:22:38 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 464 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 464 ****** (Location Flag : tFlagInsertAfter, Location ID : 460)
+	web_url("jqxcheckbox.js",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxcheckbox.js",
+		"Resource=1",
+		"RecContentType=application/javascript",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs",
+		"Snapshot=t102.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 464 Ended $$$$$$
+
+****** Request Header For Transaction With Id 468 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxcheckbox.min.js HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+Cookie: JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 468 Ended $$$$$$
+
+****** Response Header For Transaction With Id 468 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Last-Modified: Fri, 20 Jan 2017 01:20:32 GMT
+Cache-Control: max-age=31536000
+Accept-Ranges: bytes
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 12143
+Date: Fri, 24 Nov 2017 04:22:39 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 468 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 468 ****** (Location Flag : tFlagInsertAfter, Location ID : 464)
+	web_url("jqxcheckbox.min.js",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxcheckbox.min.js",
+		"Resource=1",
+		"RecContentType=application/javascript",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs",
+		"Snapshot=t103.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 468 Ended $$$$$$
+
+****** Request Header For Transaction With Id 472 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxgrid.min.js HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+Cookie: JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 472 Ended $$$$$$
+
+****** Response Header For Transaction With Id 472 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Last-Modified: Fri, 20 Jan 2017 01:20:44 GMT
+Cache-Control: max-age=31536000
+Accept-Ranges: bytes
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 269284
+Date: Fri, 24 Nov 2017 04:22:40 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 472 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 472 ****** (Location Flag : tFlagInsertAfter, Location ID : 468)
+	web_url("jqxgrid.min.js",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxgrid.min.js",
+		"Resource=1",
+		"RecContentType=application/javascript",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs",
+		"Snapshot=t104.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 472 Ended $$$$$$
+
+****** Request Header For Transaction With Id 476 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxgrid.sort.min.js HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+Cookie: JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 476 Ended $$$$$$
+
+****** Response Header For Transaction With Id 476 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Last-Modified: Fri, 20 Jan 2017 01:20:32 GMT
+Cache-Control: max-age=31536000
+Accept-Ranges: bytes
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 5392
+Date: Fri, 24 Nov 2017 04:22:40 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 476 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 476 ****** (Location Flag : tFlagInsertAfter, Location ID : 472)
+	web_url("jqxgrid.sort.min.js",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxgrid.sort.min.js",
+		"Resource=1",
+		"RecContentType=application/javascript",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs",
+		"Snapshot=t105.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 476 Ended $$$$$$
+
+****** Request Header For Transaction With Id 480 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxgrid.filter.min.js HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+Cookie: JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 480 Ended $$$$$$
+
+****** Response Header For Transaction With Id 480 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Last-Modified: Fri, 20 Jan 2017 01:20:32 GMT
+Cache-Control: max-age=31536000
+Accept-Ranges: bytes
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 46078
+Date: Fri, 24 Nov 2017 04:22:42 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 480 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 480 ****** (Location Flag : tFlagInsertAfter, Location ID : 476)
+	web_url("jqxgrid.filter.min.js",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxgrid.filter.min.js",
+		"Resource=1",
+		"RecContentType=application/javascript",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs",
+		"Snapshot=t106.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 480 Ended $$$$$$
+
+****** Request Header For Transaction With Id 484 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxgrid.selection.min.js HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+Cookie: JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 484 Ended $$$$$$
+
+****** Response Header For Transaction With Id 484 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Last-Modified: Fri, 20 Jan 2017 01:20:44 GMT
+Cache-Control: max-age=31536000
+Accept-Ranges: bytes
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 36804
+Date: Fri, 24 Nov 2017 04:22:42 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 484 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 484 ****** (Location Flag : tFlagInsertAfter, Location ID : 480)
+	web_url("jqxgrid.selection.min.js",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxgrid.selection.min.js",
+		"Resource=1",
+		"RecContentType=application/javascript",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs",
+		"Snapshot=t107.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 484 Ended $$$$$$
+
+****** Request Header For Transaction With Id 488 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxpanel.min.js HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+Cookie: JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 488 Ended $$$$$$
+
+****** Response Header For Transaction With Id 488 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Last-Modified: Fri, 20 Jan 2017 01:20:32 GMT
+Cache-Control: max-age=31536000
+Accept-Ranges: bytes
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 14945
+Date: Fri, 24 Nov 2017 04:22:42 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 488 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 488 ****** (Location Flag : tFlagInsertAfter, Location ID : 484)
+	web_url("jqxpanel.min.js",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxpanel.min.js",
+		"Resource=1",
+		"RecContentType=application/javascript",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs",
+		"Snapshot=t108.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 488 Ended $$$$$$
+
+****** Request Header For Transaction With Id 492 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxgrid.pager.min.js HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+Cookie: JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 492 Ended $$$$$$
+
+****** Response Header For Transaction With Id 492 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Last-Modified: Fri, 20 Jan 2017 01:20:44 GMT
+Cache-Control: max-age=31536000
+Accept-Ranges: bytes
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 21487
+Date: Fri, 24 Nov 2017 04:22:44 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 492 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 492 ****** (Location Flag : tFlagInsertAfter, Location ID : 488)
+	web_url("jqxgrid.pager.min.js",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxgrid.pager.min.js",
+		"Resource=1",
+		"RecContentType=application/javascript",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs",
+		"Snapshot=t109.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 492 Ended $$$$$$
+
+****** Request Header For Transaction With Id 496 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxgrid.columnsresize.min.js HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+Cookie: JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 496 Ended $$$$$$
+
+****** Response Header For Transaction With Id 496 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Last-Modified: Fri, 20 Jan 2017 01:20:44 GMT
+Cache-Control: max-age=31536000
+Accept-Ranges: bytes
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 13118
+Date: Fri, 24 Nov 2017 04:22:45 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 496 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 496 ****** (Location Flag : tFlagInsertAfter, Location ID : 492)
+	web_url("jqxgrid.columnsresize.min.js",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxgrid.columnsresize.min.js",
+		"Resource=1",
+		"RecContentType=application/javascript",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs",
+		"Snapshot=t110.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 496 Ended $$$$$$
+
+****** Request Header For Transaction With Id 500 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxgrid.columnsreorder.min.js HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+Cookie: JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 500 Ended $$$$$$
+
+****** Response Header For Transaction With Id 500 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Last-Modified: Fri, 20 Jan 2017 01:20:32 GMT
+Cache-Control: max-age=31536000
+Accept-Ranges: bytes
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 10441
+Date: Fri, 24 Nov 2017 04:22:45 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 500 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 500 ****** (Location Flag : tFlagInsertAfter, Location ID : 496)
+	web_url("jqxgrid.columnsreorder.min.js",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxgrid.columnsreorder.min.js",
+		"Resource=1",
+		"RecContentType=application/javascript",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs",
+		"Snapshot=t111.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 500 Ended $$$$$$
+
+****** Request Header For Transaction With Id 504 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/custom.min.js HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+Cookie: JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 504 Ended $$$$$$
+
+****** Response Header For Transaction With Id 504 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Last-Modified: Fri, 20 Jan 2017 01:20:44 GMT
+Cache-Control: max-age=31536000
+Accept-Ranges: bytes
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 11187
+Date: Fri, 24 Nov 2017 04:22:45 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 504 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 504 ****** (Location Flag : tFlagInsertAfter, Location ID : 500)
+	web_url("custom.min.js",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/custom.min.js",
+		"Resource=1",
+		"RecContentType=application/javascript",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs",
+		"Snapshot=t112.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 504 Ended $$$$$$
+
+****** Request Header For Transaction With Id 508 ******
+GET http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxtoolbar.min.js HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+Cookie: JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+
+
+$$$$$$ Request Header For Transaction With Id 508 Ended $$$$$$
+
+****** Response Header For Transaction With Id 508 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Last-Modified: Fri, 20 Jan 2017 01:20:44 GMT
+Cache-Control: max-age=31536000
+Accept-Ranges: bytes
+Content-Type: application/javascript;charset=UTF-8
+Content-Length: 14947
+Date: Fri, 24 Nov 2017 04:22:45 GMT
+Connection: close
+
+
+$$$$$$ Response Header For Transaction With Id 508 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 508 ****** (Location Flag : tFlagInsertAfter, Location ID : 504)
+	web_url("jqxtoolbar.min.js",
+		"URL=http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxtoolbar.min.js",
+		"Resource=1",
+		"RecContentType=application/javascript",
+		"Referer=http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs",
+		"Snapshot=t113.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 508 Ended $$$$$$
+

@@ -1,0 +1,10 @@
+GET http://192.168.5.200:8082/GisqPlatformExplorer/static/assets/global/plugins/jqwidgets/jqxcheckbox.min.js HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.5.200:8082/GisqPlatformExplorer/a/workflow/taskList/index/?missionType=opened&queryType=involvedUser&userId=zscs&Random=0.9806313645412816&userId=f2e37658-69d2-11e5-a045-000c297c0f34&transactor=zscs&username=zscs
+Cookie: JSESSIONID=0014E4CE0AC8AB74D8DF79097EB45FE6; userName=zscs; gisquest.session.id=8b537ade400a48b0baba682499583c4d; _ga=GA1.4.1946899752.1509948725
+Host: 192.168.5.200:8082
+Connection: Close
+

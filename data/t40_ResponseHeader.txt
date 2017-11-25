@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Fri, 24 Nov 2017 04:14:28 GMT
+Content-Type: application/javascript; charset=utf8
+Content-Length: 830
+Connection: close
+Server: Tengine
+Last-Modified: Tue, 14 Nov 2017 01:23:51 GMT
+ETag: "5a0a45a7-33e"
+Accept-Ranges: bytes
+X-Ser: BC146_dx-lt-yd-zhejiang-ningbo-2-cache-2, BC14_dx-lt-yd-jiangsu-zhenjiang-3-cache-9
+X-Cache: HIT from BC14_dx-lt-yd-jiangsu-zhenjiang-3-cache-9(baishan)
+
